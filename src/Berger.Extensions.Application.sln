@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berger.Extensions.Application", "Berger.Extensions.Application\Berger.Extensions.Application.csproj", "{FA7875DB-83BF-4E23-AA98-65AEA0963C2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{103FA25D-35D1-429A-B7E3-4DAA4328F4ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{FA647B2B-CEF1-40F1-9086-0B3E54B30FC1}"
+	ProjectSection(SolutionItems) = preProject
+		..\build\Berger.Extensions.Application.yml = ..\build\Berger.Extensions.Application.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA7875DB-83BF-4E23-AA98-65AEA0963C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7875DB-83BF-4E23-AA98-65AEA0963C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7875DB-83BF-4E23-AA98-65AEA0963C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7875DB-83BF-4E23-AA98-65AEA0963C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA7875DB-83BF-4E23-AA98-65AEA0963C2B} = {103FA25D-35D1-429A-B7E3-4DAA4328F4ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4961BE93-F316-4B63-8144-768113F9C617}
+	EndGlobalSection
+EndGlobal
