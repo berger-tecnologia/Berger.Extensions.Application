@@ -1,0 +1,12 @@
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\obj\Debug\net7.0\Berger.Extensions.Application.csproj.AssemblyReference.cache
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\obj\Debug\net7.0\Berger.Extensions.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\obj\Debug\net7.0\Berger.Extensions.Application.AssemblyInfoInputs.cache
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\obj\Debug\net7.0\Berger.Extensions.Application.AssemblyInfo.cs
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\obj\Debug\net7.0\Berger.Extensions.Application.csproj.CoreCompileInputs.cache
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\bin\Debug\net7.0\Berger.Extensions.Application.deps.json
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\bin\Debug\net7.0\Berger.Extensions.Application.dll
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\bin\Debug\net7.0\Berger.Extensions.Application.pdb
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\obj\Debug\net7.0\Berger.Extensions.Application.dll
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\obj\Debug\net7.0\refint\Berger.Extensions.Application.dll
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\obj\Debug\net7.0\Berger.Extensions.Application.pdb
+D:\Development\berger-open-source\Berger.Extensions.Application\src\Berger.Extensions.Application\obj\Debug\net7.0\ref\Berger.Extensions.Application.dll
