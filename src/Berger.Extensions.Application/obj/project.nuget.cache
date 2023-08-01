@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IUT4jH2NgJy5/sQnHy76K6sC9Rg4RWRxRsa0sqs88g2cYYcgdZcw4PlADEGQg2b7EYS3GAa1t3HDkYnQGgqgHw==",
+  "dgSpecHash": "k7t6R7KaUNFtTeKaDj76Wl/EEEma2vGAgvBMSdBLYahkVaJeyhRLHDRtwwcybF/JmLGhC3VIc2Zu6OyCwR5cPQ==",
   "success": true,
   "projectFilePath": "D:\\Development\\berger-open-source\\Berger.Extensions.Application\\src\\Berger.Extensions.Application\\Berger.Extensions.Application.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.domain\\1.0.0.1\\berger.extensions.domain.1.0.0.1.nupkg.sha512",
-    "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.entities\\1.0.0.2\\berger.extensions.entities.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.entities\\1.0.0.3\\berger.extensions.entities.1.0.0.3.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.repository\\1.0.0.41\\berger.extensions.repository.1.0.0.41.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
