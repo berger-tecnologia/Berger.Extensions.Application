@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Berger.Extensions.Application.Configurations
+namespace Berger.Extensions.Application
 {
     public static class BaseApplicationConfiguration
     {

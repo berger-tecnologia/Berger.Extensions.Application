@@ -87,7 +87,7 @@
           "lib/net7.0/Berger.Extensions.Domain.dll": {}
         }
       },
-      "Berger.Extensions.Entities/1.0.0.2": {
+      "Berger.Extensions.Entities/1.0.0.3": {
         "type": "package",
         "compile": {
           "lib/net7.0/Berger.Extensions.Entities.dll": {}
@@ -1189,14 +1189,14 @@
         "lib/net7.0/Berger.Extensions.Domain.dll"
       ]
     },
-    "Berger.Extensions.Entities/1.0.0.2": {
-      "sha512": "6Ucak8MjbZFB3rkDneUQ8QvnAmRITtUBAlHxAO8gFYBbgg+wWj9Q5z0nQ2Gp03y/4ZIJZO4gFOwUDcIp25NU3g==",
+    "Berger.Extensions.Entities/1.0.0.3": {
+      "sha512": "1kXkZRlW7b5+WvZA9p2qfrixx8c6y3GBxNEfJgYSLCYJusT0cJt04ACJcaXhhYmxMZ7s65nSkQ2Km+HVEtl38g==",
       "type": "package",
-      "path": "berger.extensions.entities/1.0.0.2",
+      "path": "berger.extensions.entities/1.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "berger.extensions.entities.1.0.0.2.nupkg.sha512",
+        "berger.extensions.entities.1.0.0.3.nupkg.sha512",
         "berger.extensions.entities.nuspec",
         "lib/net7.0/Berger.Extensions.Entities.dll"
       ]
@@ -3352,7 +3352,7 @@
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Berger.Extensions.Domain >= 1.0.0.1",
-      "Berger.Extensions.Entities >= 1.0.0.2"
+      "Berger.Extensions.Entities >= 1.0.0.3"
     ]
   },
   "packageFolders": {
@@ -3377,6 +3377,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/berger-erp-presentation/_packaging/brg-erp-presentation/nuget/v3/index.json": {},
         "https://pkgs.dev.azure.com/berger-erp/_packaging/brg-erp-modules/nuget/v3/index.json": {}
       },
       "frameworks": {
@@ -3405,7 +3406,7 @@
           },
           "Berger.Extensions.Entities": {
             "target": "Package",
-            "version": "[1.0.0.2, )"
+            "version": "[1.0.0.3, )"
           }
         },
         "imports": [

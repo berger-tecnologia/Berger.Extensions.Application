@@ -10,7 +10,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Berger.Extensions.Domain": "1.0.0.1",
-          "Berger.Extensions.Entities": "1.0.0.2"
+          "Berger.Extensions.Entities": "1.0.0.3"
         },
         "runtime": {
           "Berger.Extensions.Application.dll": {}
@@ -84,7 +84,7 @@
           }
         }
       },
-      "Berger.Extensions.Entities/1.0.0.2": {
+      "Berger.Extensions.Entities/1.0.0.3": {
         "runtime": {
           "lib/net7.0/Berger.Extensions.Entities.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -716,12 +716,12 @@
       "path": "berger.extensions.domain/1.0.0.1",
       "hashPath": "berger.extensions.domain.1.0.0.1.nupkg.sha512"
     },
-    "Berger.Extensions.Entities/1.0.0.2": {
+    "Berger.Extensions.Entities/1.0.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6Ucak8MjbZFB3rkDneUQ8QvnAmRITtUBAlHxAO8gFYBbgg+wWj9Q5z0nQ2Gp03y/4ZIJZO4gFOwUDcIp25NU3g==",
-      "path": "berger.extensions.entities/1.0.0.2",
-      "hashPath": "berger.extensions.entities.1.0.0.2.nupkg.sha512"
+      "sha512": "sha512-1kXkZRlW7b5+WvZA9p2qfrixx8c6y3GBxNEfJgYSLCYJusT0cJt04ACJcaXhhYmxMZ7s65nSkQ2Km+HVEtl38g==",
+      "path": "berger.extensions.entities/1.0.0.3",
+      "hashPath": "berger.extensions.entities.1.0.0.3.nupkg.sha512"
     },
     "Berger.Extensions.Repository/1.0.0.41": {
       "type": "package",
