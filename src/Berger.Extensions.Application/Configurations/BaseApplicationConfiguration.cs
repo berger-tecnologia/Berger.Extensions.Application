@@ -2,11 +2,11 @@
 
 namespace Berger.Extensions.Application
 {
-    public static class BaseApplicationConfiguration
+    public static class ApplicationServiceConfiguration
     {
         public static void ConfigureBaseApplication(this IServiceCollection services)
         {
-            services.AddScoped(typeof(IBaseApplication<,>), typeof(BaseApplication<,>));
+            services.AddScoped(typeof(IApplicationService<,>), typeof(ApplicationService<,>));
         }
     }
 }

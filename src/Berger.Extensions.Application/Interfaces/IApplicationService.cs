@@ -1,8 +1,9 @@
 ﻿using Berger.Extensions.Entities;
+using Berger.Extensions.Pagination;
 
 namespace Berger.Extensions.Application
 {
-    public interface IBaseApplication<TSource, TDestination> where TSource : BaseInput where TDestination : BaseEntity
+    public interface IApplicationService<TSource, TDestination> : IPagination<TSource> where TSource : BaseInput where TDestination : BaseEntity
     {
         TSource GetById(Guid id);
         List<TSource> Get();

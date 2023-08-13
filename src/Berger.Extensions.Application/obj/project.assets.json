@@ -87,13 +87,22 @@
           "lib/net7.0/Berger.Extensions.Domain.dll": {}
         }
       },
-      "Berger.Extensions.Entities/1.0.0.3": {
+      "Berger.Extensions.Entities/1.0.0.6": {
         "type": "package",
         "compile": {
           "lib/net7.0/Berger.Extensions.Entities.dll": {}
         },
         "runtime": {
           "lib/net7.0/Berger.Extensions.Entities.dll": {}
+        }
+      },
+      "Berger.Extensions.Pagination/1.0.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Berger.Extensions.Pagination.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Berger.Extensions.Pagination.dll": {}
         }
       },
       "Berger.Extensions.Repository/1.0.0.41": {
@@ -1189,16 +1198,28 @@
         "lib/net7.0/Berger.Extensions.Domain.dll"
       ]
     },
-    "Berger.Extensions.Entities/1.0.0.3": {
-      "sha512": "1kXkZRlW7b5+WvZA9p2qfrixx8c6y3GBxNEfJgYSLCYJusT0cJt04ACJcaXhhYmxMZ7s65nSkQ2Km+HVEtl38g==",
+    "Berger.Extensions.Entities/1.0.0.6": {
+      "sha512": "oVwO3dV8JqjOiwnKW3sPQ336IrwIZmxYEPj6F0yV9ch6oNz0I2hcIWRb9PMVzg7EOLyZnBDLFAJoNx4PFlyWFg==",
       "type": "package",
-      "path": "berger.extensions.entities/1.0.0.3",
+      "path": "berger.extensions.entities/1.0.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "berger.extensions.entities.1.0.0.3.nupkg.sha512",
+        "berger.extensions.entities.1.0.0.6.nupkg.sha512",
         "berger.extensions.entities.nuspec",
         "lib/net7.0/Berger.Extensions.Entities.dll"
+      ]
+    },
+    "Berger.Extensions.Pagination/1.0.0.13": {
+      "sha512": "BR1BU/vNSxFAl1F7COSeD4sCNzgU8PFGKWQ1KX2/Y9WJ0QcSfZ+xtfnVHCwug4srYbKLtjJQ2iSHBH1zL+KcVw==",
+      "type": "package",
+      "path": "berger.extensions.pagination/1.0.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "berger.extensions.pagination.1.0.0.13.nupkg.sha512",
+        "berger.extensions.pagination.nuspec",
+        "lib/net7.0/Berger.Extensions.Pagination.dll"
       ]
     },
     "Berger.Extensions.Repository/1.0.0.41": {
@@ -3352,7 +3373,8 @@
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Berger.Extensions.Domain >= 1.0.0.1",
-      "Berger.Extensions.Entities >= 1.0.0.3"
+      "Berger.Extensions.Entities >= 1.0.0.6",
+      "Berger.Extensions.Pagination >= 1.0.0.13"
     ]
   },
   "packageFolders": {
@@ -3406,7 +3428,11 @@
           },
           "Berger.Extensions.Entities": {
             "target": "Package",
-            "version": "[1.0.0.3, )"
+            "version": "[1.0.0.6, )"
+          },
+          "Berger.Extensions.Pagination": {
+            "target": "Package",
+            "version": "[1.0.0.13, )"
           }
         },
         "imports": [
