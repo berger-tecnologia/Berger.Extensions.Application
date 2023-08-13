@@ -10,7 +10,8 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Berger.Extensions.Domain": "1.0.0.1",
-          "Berger.Extensions.Entities": "1.0.0.3"
+          "Berger.Extensions.Entities": "1.0.0.6",
+          "Berger.Extensions.Pagination": "1.0.0.13"
         },
         "runtime": {
           "Berger.Extensions.Application.dll": {}
@@ -84,9 +85,17 @@
           }
         }
       },
-      "Berger.Extensions.Entities/1.0.0.3": {
+      "Berger.Extensions.Entities/1.0.0.6": {
         "runtime": {
           "lib/net7.0/Berger.Extensions.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Berger.Extensions.Pagination/1.0.0.13": {
+        "runtime": {
+          "lib/net7.0/Berger.Extensions.Pagination.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -716,12 +725,19 @@
       "path": "berger.extensions.domain/1.0.0.1",
       "hashPath": "berger.extensions.domain.1.0.0.1.nupkg.sha512"
     },
-    "Berger.Extensions.Entities/1.0.0.3": {
+    "Berger.Extensions.Entities/1.0.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1kXkZRlW7b5+WvZA9p2qfrixx8c6y3GBxNEfJgYSLCYJusT0cJt04ACJcaXhhYmxMZ7s65nSkQ2Km+HVEtl38g==",
-      "path": "berger.extensions.entities/1.0.0.3",
-      "hashPath": "berger.extensions.entities.1.0.0.3.nupkg.sha512"
+      "sha512": "sha512-oVwO3dV8JqjOiwnKW3sPQ336IrwIZmxYEPj6F0yV9ch6oNz0I2hcIWRb9PMVzg7EOLyZnBDLFAJoNx4PFlyWFg==",
+      "path": "berger.extensions.entities/1.0.0.6",
+      "hashPath": "berger.extensions.entities.1.0.0.6.nupkg.sha512"
+    },
+    "Berger.Extensions.Pagination/1.0.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BR1BU/vNSxFAl1F7COSeD4sCNzgU8PFGKWQ1KX2/Y9WJ0QcSfZ+xtfnVHCwug4srYbKLtjJQ2iSHBH1zL+KcVw==",
+      "path": "berger.extensions.pagination/1.0.0.13",
+      "hashPath": "berger.extensions.pagination.1.0.0.13.nupkg.sha512"
     },
     "Berger.Extensions.Repository/1.0.0.41": {
       "type": "package",

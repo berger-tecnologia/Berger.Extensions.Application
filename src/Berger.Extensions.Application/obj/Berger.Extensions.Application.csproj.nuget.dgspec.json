@@ -52,7 +52,11 @@
             },
             "Berger.Extensions.Entities": {
               "target": "Package",
-              "version": "[1.0.0.3, )"
+              "version": "[1.0.0.6, )"
+            },
+            "Berger.Extensions.Pagination": {
+              "target": "Package",
+              "version": "[1.0.0.13, )"
             }
           },
           "imports": [
