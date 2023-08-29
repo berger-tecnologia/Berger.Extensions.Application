@@ -46,17 +46,17 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "Berger.Extensions.Base": {
+              "target": "Package",
+              "version": "[1.0.0.2, )"
+            },
             "Berger.Extensions.Domain": {
               "target": "Package",
-              "version": "[1.0.0.1, )"
-            },
-            "Berger.Extensions.Entities": {
-              "target": "Package",
-              "version": "[1.0.0.6, )"
+              "version": "[1.0.0.4, )"
             },
             "Berger.Extensions.Pagination": {
               "target": "Package",
-              "version": "[1.0.0.13, )"
+              "version": "[1.0.0.14, )"
             }
           },
           "imports": [

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using Berger.Extensions.Base;
 using Berger.Extensions.Domain;
-using Berger.Extensions.Entities;
 
 namespace Berger.Extensions.Application
 {

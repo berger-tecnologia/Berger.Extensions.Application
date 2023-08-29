@@ -75,10 +75,19 @@
           }
         }
       },
-      "Berger.Extensions.Domain/1.0.0.1": {
+      "Berger.Extensions.Base/1.0.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Berger.Extensions.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Berger.Extensions.Base.dll": {}
+        }
+      },
+      "Berger.Extensions.Domain/1.0.0.4": {
         "type": "package",
         "dependencies": {
-          "Berger.Extensions.Repository": "1.0.0.41"
+          "Berger.Extensions.Repository": "1.0.0.43"
         },
         "compile": {
           "lib/net7.0/Berger.Extensions.Domain.dll": {}
@@ -87,16 +96,7 @@
           "lib/net7.0/Berger.Extensions.Domain.dll": {}
         }
       },
-      "Berger.Extensions.Entities/1.0.0.6": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Berger.Extensions.Entities.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Berger.Extensions.Entities.dll": {}
-        }
-      },
-      "Berger.Extensions.Pagination/1.0.0.13": {
+      "Berger.Extensions.Pagination/1.0.0.14": {
         "type": "package",
         "compile": {
           "lib/net7.0/Berger.Extensions.Pagination.dll": {}
@@ -105,11 +105,11 @@
           "lib/net7.0/Berger.Extensions.Pagination.dll": {}
         }
       },
-      "Berger.Extensions.Repository/1.0.0.41": {
+      "Berger.Extensions.Repository/1.0.0.43": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
+          "Microsoft.EntityFrameworkCore": "7.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Newtonsoft.Json": "13.0.3"
@@ -204,11 +204,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/7.0.9": {
+      "Microsoft.EntityFrameworkCore/7.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.9",
-          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.9",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.10",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.10",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
@@ -227,7 +227,7 @@
           "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/7.0.9": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.10": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -240,7 +240,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.9": {
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.10": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -249,10 +249,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/7.0.9": {
+      "Microsoft.EntityFrameworkCore.Relational/7.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.9",
+          "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "compile": {
@@ -266,11 +266,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/7.0.9": {
+      "Microsoft.EntityFrameworkCore.SqlServer/7.0.10": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.0.2",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.9"
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.10"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
@@ -1186,50 +1186,50 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "Berger.Extensions.Domain/1.0.0.1": {
-      "sha512": "7DbLn7fAhnL+E2FXH+J16O1A/EVU0tEKW8Th5uI6HLV1q52N/mg+du+6QprRcTbgzIt2Z4PfxS9JjbJkPaX0Gg==",
+    "Berger.Extensions.Base/1.0.0.2": {
+      "sha512": "7va1VX8sIXEXSQ0d1UfuhUIfuX2G9/4wWDrpY52iF5CHqiEWrB8xMGWLmZVyADJwNBAfkQCRMgRyaMgXtFNVBQ==",
       "type": "package",
-      "path": "berger.extensions.domain/1.0.0.1",
+      "path": "berger.extensions.base/1.0.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "berger.extensions.domain.1.0.0.1.nupkg.sha512",
+        "berger.extensions.base.1.0.0.2.nupkg.sha512",
+        "berger.extensions.base.nuspec",
+        "lib/net7.0/Berger.Extensions.Base.dll"
+      ]
+    },
+    "Berger.Extensions.Domain/1.0.0.4": {
+      "sha512": "dWGwLW1VTCkNN+5WODenKe5VmYeAJ5dtAqxOOtVb7Sk3qaS6o/xvFkQ3qA9XJvs8d61YnSp7iY+HnXCAbdXYcw==",
+      "type": "package",
+      "path": "berger.extensions.domain/1.0.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "berger.extensions.domain.1.0.0.4.nupkg.sha512",
         "berger.extensions.domain.nuspec",
         "lib/net7.0/Berger.Extensions.Domain.dll"
       ]
     },
-    "Berger.Extensions.Entities/1.0.0.6": {
-      "sha512": "oVwO3dV8JqjOiwnKW3sPQ336IrwIZmxYEPj6F0yV9ch6oNz0I2hcIWRb9PMVzg7EOLyZnBDLFAJoNx4PFlyWFg==",
+    "Berger.Extensions.Pagination/1.0.0.14": {
+      "sha512": "fB26plzuVJq6Tg6f2GKQBK2zlNb6fiR32rHgu1BbuZJ1m+lLWpJALzQWBCL6UZb5hLyxLqYB+HOFY1nVtUTcpA==",
       "type": "package",
-      "path": "berger.extensions.entities/1.0.0.6",
+      "path": "berger.extensions.pagination/1.0.0.14",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "berger.extensions.entities.1.0.0.6.nupkg.sha512",
-        "berger.extensions.entities.nuspec",
-        "lib/net7.0/Berger.Extensions.Entities.dll"
-      ]
-    },
-    "Berger.Extensions.Pagination/1.0.0.13": {
-      "sha512": "BR1BU/vNSxFAl1F7COSeD4sCNzgU8PFGKWQ1KX2/Y9WJ0QcSfZ+xtfnVHCwug4srYbKLtjJQ2iSHBH1zL+KcVw==",
-      "type": "package",
-      "path": "berger.extensions.pagination/1.0.0.13",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "berger.extensions.pagination.1.0.0.13.nupkg.sha512",
+        "berger.extensions.pagination.1.0.0.14.nupkg.sha512",
         "berger.extensions.pagination.nuspec",
         "lib/net7.0/Berger.Extensions.Pagination.dll"
       ]
     },
-    "Berger.Extensions.Repository/1.0.0.41": {
-      "sha512": "/nizOIAQ19AX4L/dr4C7xCjkq+Npi2NJsTVUmCtxx85nfwuVHL3itXfVWo0rI2MO1kFQnEvYqSDm3ihSySqryQ==",
+    "Berger.Extensions.Repository/1.0.0.43": {
+      "sha512": "BPC67F6uXv2VQxS/+PyPJLZ6Xo872cOmq/OeKrXASQzlTLiK38iZMG8UeNN6/1nXNvAf5RT+jzuzeTtPJVioVw==",
       "type": "package",
-      "path": "berger.extensions.repository/1.0.0.41",
+      "path": "berger.extensions.repository/1.0.0.43",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "berger.extensions.repository.1.0.0.41.nupkg.sha512",
+        "berger.extensions.repository.1.0.0.43.nupkg.sha512",
         "berger.extensions.repository.nuspec",
         "lib/net7.0/Berger.Extensions.Repository.dll"
       ]
@@ -1405,10 +1405,10 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
-    "Microsoft.EntityFrameworkCore/7.0.9": {
-      "sha512": "9YuCdQWuRAmYYHqwW1h5ukKMC1fmNvcVHdp3gb8zdHxwSQz7hkGpYOBEjm6dRXRmGRkpUyHL8rwUz4kd53Ev0A==",
+    "Microsoft.EntityFrameworkCore/7.0.10": {
+      "sha512": "24NbXJqJ/x8u88/agqeb1pLdAF9+9StDLA36+P/3g5xsJPOaB2GxXn7epR8dWpZTgHsNZ7cvBMxBgfFmF+xZlg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/7.0.9",
+      "path": "microsoft.entityframeworkcore/7.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1416,63 +1416,63 @@
         "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/7.0.9": {
-      "sha512": "cfY6Fn7cnP/5pXndL8QYaey/B2nGn1fwze5aSaMJymmbqwqYzFiszHuWbsdVBCDYJc8ok7eB1m/nCc3/rltulQ==",
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.10": {
+      "sha512": "Z/lDWmGLiT9uNQrp6UXTKZxofSmAKQCiKOz98FDscTbfAGgBXE3DTTqRsPMc8HFIVVSNANSiFRz3JyLg07HN9Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/7.0.9",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.9": {
-      "sha512": "VvqFD3DdML6LhPCAR/lG2xNX66juylC8v57yUAAYnUSdEUOMRi3lNoT4OrNdG0rere3UOQPhvVl5FH2QdyoF8Q==",
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.10": {
+      "sha512": "+8NVNpyJTzW6nNh/7RGfldf+mbeboVcn+X1tD8kMBCEJswuy3RqM/qecEEfOfTcWLliZExPMaHwOwtHO6RMpdA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.9",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/7.0.9": {
-      "sha512": "u7iN6cNd6SJUlpdk24JVIbkji/UbkEEQ7pXncTyT4eXXj+Hz2y4NSZFOAywPGcioIgX1YzbKWDiJhk7hjSFxBQ==",
+    "Microsoft.EntityFrameworkCore.Relational/7.0.10": {
+      "sha512": "PO2QB2Du+pW210UHmepYR12bk+ZOZJCiNkA7zEAxWs+vzvrRAMsUPlDlfgX2LXE7NBsnb0uvZp7a1/qqKf3fRQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/7.0.9",
+      "path": "microsoft.entityframeworkcore.relational/7.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.7.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.7.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/7.0.9": {
-      "sha512": "19S5BWZBcaShhLWzePi9iOq+meKIgL+dDlS0NQgPOQapu3wb3So3ZL0xgPmmlyq3GLYvXiCmQsK3Yv3vXYaMTg==",
+    "Microsoft.EntityFrameworkCore.SqlServer/7.0.10": {
+      "sha512": "qRMzze1QbKa2vhlhjTxwjhJUMCI4qVDFWQCRq9Pdgf9mC+xLz0ZT/4ALEa0oZRicGzPZAqIIhKrHNAjgD4GsAQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/7.0.9",
+      "path": "microsoft.entityframeworkcore.sqlserver/7.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.7.0.9.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.7.0.10.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -3372,9 +3372,9 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "Berger.Extensions.Domain >= 1.0.0.1",
-      "Berger.Extensions.Entities >= 1.0.0.6",
-      "Berger.Extensions.Pagination >= 1.0.0.13"
+      "Berger.Extensions.Base >= 1.0.0.2",
+      "Berger.Extensions.Domain >= 1.0.0.4",
+      "Berger.Extensions.Pagination >= 1.0.0.14"
     ]
   },
   "packageFolders": {
@@ -3422,17 +3422,17 @@
             "target": "Package",
             "version": "[12.0.1, )"
           },
+          "Berger.Extensions.Base": {
+            "target": "Package",
+            "version": "[1.0.0.2, )"
+          },
           "Berger.Extensions.Domain": {
             "target": "Package",
-            "version": "[1.0.0.1, )"
-          },
-          "Berger.Extensions.Entities": {
-            "target": "Package",
-            "version": "[1.0.0.6, )"
+            "version": "[1.0.0.4, )"
           },
           "Berger.Extensions.Pagination": {
             "target": "Package",
-            "version": "[1.0.0.13, )"
+            "version": "[1.0.0.14, )"
           }
         },
         "imports": [

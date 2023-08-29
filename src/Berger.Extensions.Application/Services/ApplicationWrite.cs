@@ -1,4 +1,4 @@
-﻿using Berger.Extensions.Entities;
+﻿using Berger.Extensions.Base;
 
 namespace Berger.Extensions.Application
 {
