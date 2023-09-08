@@ -75,7 +75,7 @@
           }
         }
       },
-      "Berger.Extensions.Base/1.0.0.2": {
+      "Berger.Extensions.Base/1.0.0.3": {
         "type": "package",
         "compile": {
           "lib/net7.0/Berger.Extensions.Base.dll": {}
@@ -84,7 +84,7 @@
           "lib/net7.0/Berger.Extensions.Base.dll": {}
         }
       },
-      "Berger.Extensions.Domain/1.0.0.4": {
+      "Berger.Extensions.Domain/1.0.0.5": {
         "type": "package",
         "dependencies": {
           "Berger.Extensions.Repository": "1.0.0.43"
@@ -1186,26 +1186,26 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
-    "Berger.Extensions.Base/1.0.0.2": {
-      "sha512": "7va1VX8sIXEXSQ0d1UfuhUIfuX2G9/4wWDrpY52iF5CHqiEWrB8xMGWLmZVyADJwNBAfkQCRMgRyaMgXtFNVBQ==",
+    "Berger.Extensions.Base/1.0.0.3": {
+      "sha512": "7pI+2pXOHDVO4KzqYDwCuve8iZYj6Z/nTBqsDKynAEh/9YRx/wKupYDcI5H8QIDUxcG7/L+IGnKnt7UJgh+meg==",
       "type": "package",
-      "path": "berger.extensions.base/1.0.0.2",
+      "path": "berger.extensions.base/1.0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "berger.extensions.base.1.0.0.2.nupkg.sha512",
+        "berger.extensions.base.1.0.0.3.nupkg.sha512",
         "berger.extensions.base.nuspec",
         "lib/net7.0/Berger.Extensions.Base.dll"
       ]
     },
-    "Berger.Extensions.Domain/1.0.0.4": {
-      "sha512": "dWGwLW1VTCkNN+5WODenKe5VmYeAJ5dtAqxOOtVb7Sk3qaS6o/xvFkQ3qA9XJvs8d61YnSp7iY+HnXCAbdXYcw==",
+    "Berger.Extensions.Domain/1.0.0.5": {
+      "sha512": "Za5yhVa09ab3Y2e9yq7q2NnR3h25+MairlMiKm7h8DyuoufonkfgqV8SYGoj3aZLPNLHu4jTvuCoIUbHH0dpZQ==",
       "type": "package",
-      "path": "berger.extensions.domain/1.0.0.4",
+      "path": "berger.extensions.domain/1.0.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "berger.extensions.domain.1.0.0.4.nupkg.sha512",
+        "berger.extensions.domain.1.0.0.5.nupkg.sha512",
         "berger.extensions.domain.nuspec",
         "lib/net7.0/Berger.Extensions.Domain.dll"
       ]
@@ -3372,8 +3372,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "Berger.Extensions.Base >= 1.0.0.2",
-      "Berger.Extensions.Domain >= 1.0.0.4",
+      "Berger.Extensions.Base >= 1.0.0.3",
+      "Berger.Extensions.Domain >= 1.0.0.5",
       "Berger.Extensions.Pagination >= 1.0.0.14"
     ]
   },
@@ -3424,11 +3424,11 @@
           },
           "Berger.Extensions.Base": {
             "target": "Package",
-            "version": "[1.0.0.2, )"
+            "version": "[1.0.0.3, )"
           },
           "Berger.Extensions.Domain": {
             "target": "Package",
-            "version": "[1.0.0.4, )"
+            "version": "[1.0.0.5, )"
           },
           "Berger.Extensions.Pagination": {
             "target": "Package",

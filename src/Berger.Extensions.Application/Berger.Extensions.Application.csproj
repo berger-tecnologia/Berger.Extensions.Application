@@ -6,8 +6,8 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-		<PackageReference Include="Berger.Extensions.Base" Version="1.0.0.2" />
-		<PackageReference Include="Berger.Extensions.Domain" Version="1.0.0.4" />
+		<PackageReference Include="Berger.Extensions.Base" Version="1.0.0.3" />
+		<PackageReference Include="Berger.Extensions.Domain" Version="1.0.0.5" />
 		<PackageReference Include="Berger.Extensions.Pagination" Version="1.0.0.14" />
 	</ItemGroup>
 </Project>

@@ -48,11 +48,11 @@
             },
             "Berger.Extensions.Base": {
               "target": "Package",
-              "version": "[1.0.0.2, )"
+              "version": "[1.0.0.3, )"
             },
             "Berger.Extensions.Domain": {
               "target": "Package",
-              "version": "[1.0.0.4, )"
+              "version": "[1.0.0.5, )"
             },
             "Berger.Extensions.Pagination": {
               "target": "Package",

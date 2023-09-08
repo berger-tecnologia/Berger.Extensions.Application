@@ -9,8 +9,8 @@
       "Berger.Extensions.Application/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "Berger.Extensions.Base": "1.0.0.2",
-          "Berger.Extensions.Domain": "1.0.0.4",
+          "Berger.Extensions.Base": "1.0.0.3",
+          "Berger.Extensions.Domain": "1.0.0.5",
           "Berger.Extensions.Pagination": "1.0.0.14"
         },
         "runtime": {
@@ -74,7 +74,7 @@
           }
         }
       },
-      "Berger.Extensions.Base/1.0.0.2": {
+      "Berger.Extensions.Base/1.0.0.3": {
         "runtime": {
           "lib/net7.0/Berger.Extensions.Base.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -82,7 +82,7 @@
           }
         }
       },
-      "Berger.Extensions.Domain/1.0.0.4": {
+      "Berger.Extensions.Domain/1.0.0.5": {
         "dependencies": {
           "Berger.Extensions.Repository": "1.0.0.43"
         },
@@ -718,19 +718,19 @@
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
     },
-    "Berger.Extensions.Base/1.0.0.2": {
+    "Berger.Extensions.Base/1.0.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7va1VX8sIXEXSQ0d1UfuhUIfuX2G9/4wWDrpY52iF5CHqiEWrB8xMGWLmZVyADJwNBAfkQCRMgRyaMgXtFNVBQ==",
-      "path": "berger.extensions.base/1.0.0.2",
-      "hashPath": "berger.extensions.base.1.0.0.2.nupkg.sha512"
+      "sha512": "sha512-7pI+2pXOHDVO4KzqYDwCuve8iZYj6Z/nTBqsDKynAEh/9YRx/wKupYDcI5H8QIDUxcG7/L+IGnKnt7UJgh+meg==",
+      "path": "berger.extensions.base/1.0.0.3",
+      "hashPath": "berger.extensions.base.1.0.0.3.nupkg.sha512"
     },
-    "Berger.Extensions.Domain/1.0.0.4": {
+    "Berger.Extensions.Domain/1.0.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dWGwLW1VTCkNN+5WODenKe5VmYeAJ5dtAqxOOtVb7Sk3qaS6o/xvFkQ3qA9XJvs8d61YnSp7iY+HnXCAbdXYcw==",
-      "path": "berger.extensions.domain/1.0.0.4",
-      "hashPath": "berger.extensions.domain.1.0.0.4.nupkg.sha512"
+      "sha512": "sha512-Za5yhVa09ab3Y2e9yq7q2NnR3h25+MairlMiKm7h8DyuoufonkfgqV8SYGoj3aZLPNLHu4jTvuCoIUbHH0dpZQ==",
+      "path": "berger.extensions.domain/1.0.0.5",
+      "hashPath": "berger.extensions.domain.1.0.0.5.nupkg.sha512"
     },
     "Berger.Extensions.Pagination/1.0.0.14": {
       "type": "package",
