@@ -1,6 +1,6 @@
 ﻿namespace Berger.Extensions.Application
 { 
-    public interface IPageCreator<T> where T : class
+    public interface ICreation<T> where T : class
     {
         T Create();
     }
