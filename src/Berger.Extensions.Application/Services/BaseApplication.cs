@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Berger.Extensions.Base;
+using Berger.Extensions.System;
 using Berger.Extensions.Domain;
 
 namespace Berger.Extensions.Application

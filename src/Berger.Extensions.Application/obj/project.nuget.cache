@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GacHH071Kqj0teX/+K78Ietbbb2V7eU0YFV4fxAlazhs9WdHjtaiZH5BaXSRzFNHe73cPKIKDQyGgjW7vJTmcg==",
+  "dgSpecHash": "bcUKCRw9ZtOAm+GFNkFHAS+HvjrGXYaXkjKutHTT9PVX8VvEqZwg0n15sIwCw2ykkrXH+a8w19Ji9a/UkdyaQA==",
   "success": true,
   "projectFilePath": "D:\\Development\\berger-open-source\\Berger.Extensions.Application\\src\\Berger.Extensions.Application\\Berger.Extensions.Application.csproj",
   "expectedPackageFiles": [
@@ -9,10 +9,10 @@
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.automapper\\1.0.0.5\\berger.extensions.automapper.1.0.0.5.nupkg.sha512",
-    "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.base\\1.0.0.3\\berger.extensions.base.1.0.0.3.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.domain\\1.0.0.6\\berger.extensions.domain.1.0.0.6.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.pagination\\1.0.0.14\\berger.extensions.pagination.1.0.0.14.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.repository\\1.0.0.44\\berger.extensions.repository.1.0.0.44.nupkg.sha512",
+    "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\berger.extensions.system\\1.0.0.1\\berger.extensions.system.1.0.0.1.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

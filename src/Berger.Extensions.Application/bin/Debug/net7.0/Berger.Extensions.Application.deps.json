@@ -9,9 +9,9 @@
       "Berger.Extensions.Application/1.0.0": {
         "dependencies": {
           "Berger.Extensions.AutoMapper": "1.0.0.5",
-          "Berger.Extensions.Base": "1.0.0.3",
           "Berger.Extensions.Domain": "1.0.0.6",
-          "Berger.Extensions.Pagination": "1.0.0.14"
+          "Berger.Extensions.Pagination": "1.0.0.14",
+          "Berger.Extensions.System": "1.0.0.1"
         },
         "runtime": {
           "Berger.Extensions.Application.dll": {}
@@ -86,14 +86,6 @@
           }
         }
       },
-      "Berger.Extensions.Base/1.0.0.3": {
-        "runtime": {
-          "lib/net7.0/Berger.Extensions.Base.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Berger.Extensions.Domain/1.0.0.6": {
         "dependencies": {
           "Berger.Extensions.Repository": "1.0.0.44"
@@ -121,6 +113,14 @@
         },
         "runtime": {
           "lib/net7.0/Berger.Extensions.Repository.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Berger.Extensions.System/1.0.0.1": {
+        "runtime": {
+          "lib/net7.0/Berger.Extensions.System.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -679,13 +679,6 @@
       "path": "berger.extensions.automapper/1.0.0.5",
       "hashPath": "berger.extensions.automapper.1.0.0.5.nupkg.sha512"
     },
-    "Berger.Extensions.Base/1.0.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7pI+2pXOHDVO4KzqYDwCuve8iZYj6Z/nTBqsDKynAEh/9YRx/wKupYDcI5H8QIDUxcG7/L+IGnKnt7UJgh+meg==",
-      "path": "berger.extensions.base/1.0.0.3",
-      "hashPath": "berger.extensions.base.1.0.0.3.nupkg.sha512"
-    },
     "Berger.Extensions.Domain/1.0.0.6": {
       "type": "package",
       "serviceable": true,
@@ -706,6 +699,13 @@
       "sha512": "sha512-AjGVRw9UKX/WfNS6BV9gFKn/8MQbSScVJVd5xTH7cdKQU3dYvS+I+gE/CBLpO4nvpmsbmlmuqU8c5H9yhKVMZw==",
       "path": "berger.extensions.repository/1.0.0.44",
       "hashPath": "berger.extensions.repository.1.0.0.44.nupkg.sha512"
+    },
+    "Berger.Extensions.System/1.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GGPm9NAuYReBBTes42B8EW3WkD+U7ImBlUbNLzRqaIJ+askd7R51SskZzA8oH/qjBZL2N2ZmU9ymAbucFaSb8A==",
+      "path": "berger.extensions.system/1.0.0.1",
+      "hashPath": "berger.extensions.system.1.0.0.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

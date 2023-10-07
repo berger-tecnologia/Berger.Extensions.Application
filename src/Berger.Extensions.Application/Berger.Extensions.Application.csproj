@@ -4,11 +4,11 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 	</PropertyGroup>
-	
+
 	<ItemGroup>
 		<PackageReference Include="Berger.Extensions.AutoMapper" Version="1.0.0.5" />
-		<PackageReference Include="Berger.Extensions.Base" Version="1.0.0.3" />
 		<PackageReference Include="Berger.Extensions.Domain" Version="1.0.0.6" />
 		<PackageReference Include="Berger.Extensions.Pagination" Version="1.0.0.14" />
+		<PackageReference Include="Berger.Extensions.System" Version="1.0.0.1" />
 	</ItemGroup>
 </Project>

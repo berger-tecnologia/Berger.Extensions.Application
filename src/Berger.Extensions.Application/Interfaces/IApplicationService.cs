@@ -1,4 +1,4 @@
-﻿using Berger.Extensions.Base;
+﻿using Berger.Extensions.System;
 using Berger.Extensions.Pagination;
 
 namespace Berger.Extensions.Application
