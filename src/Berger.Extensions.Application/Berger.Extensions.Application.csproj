@@ -5,10 +5,21 @@
 		<Nullable>disable</Nullable>
 	</PropertyGroup>
 
-	<ItemGroup>
-		<PackageReference Include="Berger.Extensions.AutoMapper" Version="1.0.0.5" />
-		<PackageReference Include="Berger.Extensions.Domain" Version="1.0.0.6" />
-		<PackageReference Include="Berger.Extensions.Pagination" Version="1.0.0.14" />
-		<PackageReference Include="Berger.Extensions.System" Version="1.0.0.1" />
+	<PropertyGroup>
+		<UseProjectReference>true</UseProjectReference>
+	</PropertyGroup>
+
+	<ItemGroup Condition="'$(UseProjectReference)' == 'true'">
+		<ProjectReference Include="..\..\..\Berger.Extensions.AutoMapper\src\Berger.Extensions.AutoMapper\Berger.Extensions.AutoMapper.csproj" />
+		<ProjectReference Include="..\..\..\Berger.Extensions.Domain\src\Berger.Extensions.Domain\Berger.Extensions.Domain.csproj" />
+		<ProjectReference Include="..\..\..\Berger.Extensions.Pagination\src\Berger.Extensions.Pagination\Berger.Extensions.Pagination.csproj" />
+		<ProjectReference Include="..\..\..\Berger.Extensions.System\src\Berger.Extensions.System\Berger.Extensions.System.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(UseProjectReference)' != 'true'">
+		<PackageReference Include="Berger.Extensions.System" Version="*" />
+		<PackageReference Include="Berger.Extensions.Domain" Version="*" />
+		<PackageReference Include="Berger.Extensions.AutoMapper" Version="*" />
+		<PackageReference Include="Berger.Extensions.Pagination" Version="*" />
 	</ItemGroup>
 </Project>
