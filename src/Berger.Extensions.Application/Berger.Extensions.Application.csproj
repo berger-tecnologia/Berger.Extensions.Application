@@ -1,24 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<TargetFramework>net7.0</TargetFramework>
 	</PropertyGroup>
 
 	<PropertyGroup>
 		<UseProjectReference>true</UseProjectReference>
 	</PropertyGroup>
 
-	<ItemGroup Condition="'$(UseProjectReference)' == 'true'">
-		<ProjectReference Include="..\..\..\Berger.Extensions.AutoMapper\src\Berger.Extensions.AutoMapper\Berger.Extensions.AutoMapper.csproj" />
+	<ItemGroup Condition="'$(Configuration)' == 'Debug'">
 		<ProjectReference Include="..\..\..\Berger.Extensions.Domain\src\Berger.Extensions.Domain\Berger.Extensions.Domain.csproj" />
-		<ProjectReference Include="..\..\..\Berger.Extensions.Pagination\src\Berger.Extensions.Pagination\Berger.Extensions.Pagination.csproj" />
 		<ProjectReference Include="..\..\..\Berger.Extensions.System\src\Berger.Extensions.System\Berger.Extensions.System.csproj" />
+		<ProjectReference Include="..\..\..\Berger.Extensions.AutoMapper\src\Berger.Extensions.AutoMapper\Berger.Extensions.AutoMapper.csproj" />
+		<ProjectReference Include="..\..\..\Berger.Extensions.Pagination\src\Berger.Extensions.Pagination\Berger.Extensions.Pagination.csproj" />
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(UseProjectReference)' != 'true'">
-		<PackageReference Include="Berger.Extensions.System" Version="*" />
+	<ItemGroup Condition="'$(Configuration)' == 'Release'">
 		<PackageReference Include="Berger.Extensions.Domain" Version="*" />
+		<PackageReference Include="Berger.Extensions.System" Version="*" />
 		<PackageReference Include="Berger.Extensions.AutoMapper" Version="*" />
 		<PackageReference Include="Berger.Extensions.Pagination" Version="*" />
 	</ItemGroup>
