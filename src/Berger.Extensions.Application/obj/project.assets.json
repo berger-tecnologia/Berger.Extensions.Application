@@ -75,63 +75,6 @@
           }
         }
       },
-      "Berger.Extensions.AutoMapper/1.0.0.5": {
-        "type": "package",
-        "dependencies": {
-          "AutoMapper": "12.0.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
-        },
-        "compile": {
-          "lib/net7.0/Berger.Extensions.AutoMapper.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Berger.Extensions.AutoMapper.dll": {}
-        }
-      },
-      "Berger.Extensions.Base/1.0.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Berger.Extensions.Base.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Berger.Extensions.Base.dll": {}
-        }
-      },
-      "Berger.Extensions.Domain/1.0.0.6": {
-        "type": "package",
-        "dependencies": {
-          "Berger.Extensions.Repository": "1.0.0.44"
-        },
-        "compile": {
-          "lib/net7.0/Berger.Extensions.Domain.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Berger.Extensions.Domain.dll": {}
-        }
-      },
-      "Berger.Extensions.Pagination/1.0.0.14": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Berger.Extensions.Pagination.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Berger.Extensions.Pagination.dll": {}
-        }
-      },
-      "Berger.Extensions.Repository/1.0.0.44": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "compile": {
-          "lib/net7.0/Berger.Extensions.Repository.dll": {}
-        },
-        "runtime": {
-          "lib/net7.0/Berger.Extensions.Repository.dll": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1059,6 +1002,68 @@
             "rid": "win"
           }
         }
+      },
+      "Berger.Extensions.AutoMapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Berger.Extensions.AutoMapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Berger.Extensions.AutoMapper.dll": {}
+        }
+      },
+      "Berger.Extensions.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Berger.Extensions.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Berger.Extensions.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Berger.Extensions.Domain.dll": {}
+        }
+      },
+      "Berger.Extensions.Pagination/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Berger.Extensions.Pagination.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Berger.Extensions.Pagination.dll": {}
+        }
+      },
+      "Berger.Extensions.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Berger.Extensions.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Berger.Extensions.Repository.dll": {}
+        }
+      },
+      "Berger.Extensions.System/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Berger.Extensions.System.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Berger.Extensions.System.dll": {}
+        }
       }
     }
   },
@@ -1128,66 +1133,6 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
-      ]
-    },
-    "Berger.Extensions.AutoMapper/1.0.0.5": {
-      "sha512": "5Xg/gWlO7cxeNhPtlPiZOt1ky2Qf2YqB+ZeCK0GuZAF6bhkc30ozY0QsHJO0XiHCt40WaUWlmkwueSlYN/0NCg==",
-      "type": "package",
-      "path": "berger.extensions.automapper/1.0.0.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "berger.extensions.automapper.1.0.0.5.nupkg.sha512",
-        "berger.extensions.automapper.nuspec",
-        "lib/net7.0/Berger.Extensions.AutoMapper.dll"
-      ]
-    },
-    "Berger.Extensions.Base/1.0.0.3": {
-      "sha512": "7pI+2pXOHDVO4KzqYDwCuve8iZYj6Z/nTBqsDKynAEh/9YRx/wKupYDcI5H8QIDUxcG7/L+IGnKnt7UJgh+meg==",
-      "type": "package",
-      "path": "berger.extensions.base/1.0.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "berger.extensions.base.1.0.0.3.nupkg.sha512",
-        "berger.extensions.base.nuspec",
-        "lib/net7.0/Berger.Extensions.Base.dll"
-      ]
-    },
-    "Berger.Extensions.Domain/1.0.0.6": {
-      "sha512": "zhIuyTGbLUgVYtbPAriBWRwi2sF6yaAtntyni4xIls7dzgf1ch9c5POT+avimOFZpgo6yLkrFCTyNbfRE9PwLw==",
-      "type": "package",
-      "path": "berger.extensions.domain/1.0.0.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "berger.extensions.domain.1.0.0.6.nupkg.sha512",
-        "berger.extensions.domain.nuspec",
-        "lib/net7.0/Berger.Extensions.Domain.dll"
-      ]
-    },
-    "Berger.Extensions.Pagination/1.0.0.14": {
-      "sha512": "fB26plzuVJq6Tg6f2GKQBK2zlNb6fiR32rHgu1BbuZJ1m+lLWpJALzQWBCL6UZb5hLyxLqYB+HOFY1nVtUTcpA==",
-      "type": "package",
-      "path": "berger.extensions.pagination/1.0.0.14",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "berger.extensions.pagination.1.0.0.14.nupkg.sha512",
-        "berger.extensions.pagination.nuspec",
-        "lib/net7.0/Berger.Extensions.Pagination.dll"
-      ]
-    },
-    "Berger.Extensions.Repository/1.0.0.44": {
-      "sha512": "AjGVRw9UKX/WfNS6BV9gFKn/8MQbSScVJVd5xTH7cdKQU3dYvS+I+gE/CBLpO4nvpmsbmlmuqU8c5H9yhKVMZw==",
-      "type": "package",
-      "path": "berger.extensions.repository/1.0.0.44",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "berger.extensions.repository.1.0.0.44.nupkg.sha512",
-        "berger.extensions.repository.nuspec",
-        "lib/net7.0/Berger.Extensions.Repository.dll"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -2828,14 +2773,39 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Berger.Extensions.AutoMapper/1.0.0": {
+      "type": "project",
+      "path": "../../../Berger.Extensions.AutoMapper/src/Berger.Extensions.AutoMapper/Berger.Extensions.AutoMapper.csproj",
+      "msbuildProject": "../../../Berger.Extensions.AutoMapper/src/Berger.Extensions.AutoMapper/Berger.Extensions.AutoMapper.csproj"
+    },
+    "Berger.Extensions.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../Berger.Extensions.Domain/src/Berger.Extensions.Domain/Berger.Extensions.Domain.csproj",
+      "msbuildProject": "../../../Berger.Extensions.Domain/src/Berger.Extensions.Domain/Berger.Extensions.Domain.csproj"
+    },
+    "Berger.Extensions.Pagination/1.0.0": {
+      "type": "project",
+      "path": "../../../Berger.Extensions.Pagination/src/Berger.Extensions.Pagination/Berger.Extensions.Pagination.csproj",
+      "msbuildProject": "../../../Berger.Extensions.Pagination/src/Berger.Extensions.Pagination/Berger.Extensions.Pagination.csproj"
+    },
+    "Berger.Extensions.Repository/1.0.0": {
+      "type": "project",
+      "path": "../../../Berger.Extensions.Repository/src/Berger.Extensions.Repository/Berger.Extensions.Repository.csproj",
+      "msbuildProject": "../../../Berger.Extensions.Repository/src/Berger.Extensions.Repository/Berger.Extensions.Repository.csproj"
+    },
+    "Berger.Extensions.System/1.0.0": {
+      "type": "project",
+      "path": "../../../Berger.Extensions.System/src/Berger.Extensions.System/Berger.Extensions.System.csproj",
+      "msbuildProject": "../../../Berger.Extensions.System/src/Berger.Extensions.System/Berger.Extensions.System.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Berger.Extensions.AutoMapper >= 1.0.0.5",
-      "Berger.Extensions.Base >= 1.0.0.3",
-      "Berger.Extensions.Domain >= 1.0.0.6",
-      "Berger.Extensions.Pagination >= 1.0.0.14"
+      "Berger.Extensions.AutoMapper >= 1.0.0",
+      "Berger.Extensions.Domain >= 1.0.0",
+      "Berger.Extensions.Pagination >= 1.0.0",
+      "Berger.Extensions.System >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2866,7 +2836,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Development\\berger-open-source\\Berger.Extensions.AutoMapper\\src\\Berger.Extensions.AutoMapper\\Berger.Extensions.AutoMapper.csproj": {
+              "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.AutoMapper\\src\\Berger.Extensions.AutoMapper\\Berger.Extensions.AutoMapper.csproj"
+            },
+            "D:\\Development\\berger-open-source\\Berger.Extensions.Domain\\src\\Berger.Extensions.Domain\\Berger.Extensions.Domain.csproj": {
+              "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Domain\\src\\Berger.Extensions.Domain\\Berger.Extensions.Domain.csproj"
+            },
+            "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\Berger.Extensions.Pagination.csproj": {
+              "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\Berger.Extensions.Pagination.csproj"
+            },
+            "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\Berger.Extensions.System.csproj": {
+              "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\Berger.Extensions.System.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2878,24 +2861,6 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
-        "dependencies": {
-          "Berger.Extensions.AutoMapper": {
-            "target": "Package",
-            "version": "[1.0.0.5, )"
-          },
-          "Berger.Extensions.Base": {
-            "target": "Package",
-            "version": "[1.0.0.3, )"
-          },
-          "Berger.Extensions.Domain": {
-            "target": "Package",
-            "version": "[1.0.0.6, )"
-          },
-          "Berger.Extensions.Pagination": {
-            "target": "Package",
-            "version": "[1.0.0.14, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -2912,7 +2877,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
