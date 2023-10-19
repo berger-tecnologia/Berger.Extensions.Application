@@ -11,6 +11,7 @@
           "Berger.Extensions.AutoMapper": "1.0.0",
           "Berger.Extensions.Domain": "1.0.0",
           "Berger.Extensions.Pagination": "1.0.0",
+          "Berger.Extensions.Repository": "1.0.0",
           "Berger.Extensions.System": "1.0.0"
         },
         "runtime": {

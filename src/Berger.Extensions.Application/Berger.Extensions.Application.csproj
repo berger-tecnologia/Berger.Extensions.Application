@@ -5,14 +5,15 @@
 		<TargetFramework>net7.0</TargetFramework>
 	</PropertyGroup>
 
-	<ItemGroup Condition="'$(Configuration)' == 'Debug'">
-		<ProjectReference Include="..\..\..\Berger.Extensions.Domain\src\Berger.Extensions.Domain\Berger.Extensions.Domain.csproj" />
+	<ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<ProjectReference Include="..\..\..\Berger.Extensions.System\src\Berger.Extensions.System\Berger.Extensions.System.csproj" />
+		<ProjectReference Include="..\..\..\Berger.Extensions.Domain\src\Berger.Extensions.Domain\Berger.Extensions.Domain.csproj" />
 		<ProjectReference Include="..\..\..\Berger.Extensions.AutoMapper\src\Berger.Extensions.AutoMapper\Berger.Extensions.AutoMapper.csproj" />
 		<ProjectReference Include="..\..\..\Berger.Extensions.Pagination\src\Berger.Extensions.Pagination\Berger.Extensions.Pagination.csproj" />
+		<ProjectReference Include="..\..\..\Berger.Extensions.Repository\src\Berger.Extensions.Repository\Berger.Extensions.Repository.csproj" />
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(Configuration)' == 'Release'">
+	<ItemGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 		<PackageReference Include="Berger.Extensions.Domain" Version="*" />
 		<PackageReference Include="Berger.Extensions.System" Version="*" />
 		<PackageReference Include="Berger.Extensions.AutoMapper" Version="*" />

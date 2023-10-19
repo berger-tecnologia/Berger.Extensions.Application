@@ -2805,6 +2805,7 @@
       "Berger.Extensions.AutoMapper >= 1.0.0",
       "Berger.Extensions.Domain >= 1.0.0",
       "Berger.Extensions.Pagination >= 1.0.0",
+      "Berger.Extensions.Repository >= 1.0.0",
       "Berger.Extensions.System >= 1.0.0"
     ]
   },
@@ -2845,6 +2846,9 @@
             },
             "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\Berger.Extensions.Pagination.csproj": {
               "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\Berger.Extensions.Pagination.csproj"
+            },
+            "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\Berger.Extensions.Repository.csproj": {
+              "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\Berger.Extensions.Repository.csproj"
             },
             "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\Berger.Extensions.System.csproj": {
               "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\Berger.Extensions.System.csproj"
