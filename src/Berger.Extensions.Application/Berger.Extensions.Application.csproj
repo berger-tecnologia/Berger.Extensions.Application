@@ -14,9 +14,9 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-		<PackageReference Include="Berger.Extensions.Domain" Version="*" />
+		<PackageReference Include="Berger.Extensions.Domain" Version="1.0.0.19" />
 		<PackageReference Include="Berger.Extensions.System" Version="1.0.0.7" />
-		<PackageReference Include="Berger.Extensions.AutoMapper" Version="*" />
-		<PackageReference Include="Berger.Extensions.Pagination" Version="*" />
+		<PackageReference Include="Berger.Extensions.AutoMapper" Version="1.0.0.9" />
+		<PackageReference Include="Berger.Extensions.Pagination" Version="1.0.0.17" />
 	</ItemGroup>
 </Project>
