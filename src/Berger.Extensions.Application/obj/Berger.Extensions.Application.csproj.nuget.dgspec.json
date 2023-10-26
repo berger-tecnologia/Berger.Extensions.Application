@@ -29,6 +29,79 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Development\\berger-open-source\\Berger.Extensions.AutoMapper\\src\\Berger.Extensions.AutoMapper\\Berger.Extensions.AutoMapper.csproj": {
+                "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.AutoMapper\\src\\Berger.Extensions.AutoMapper\\Berger.Extensions.AutoMapper.csproj"
+              },
+              "D:\\Development\\berger-open-source\\Berger.Extensions.Domain\\src\\Berger.Extensions.Domain\\Berger.Extensions.Domain.csproj": {
+                "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Domain\\src\\Berger.Extensions.Domain\\Berger.Extensions.Domain.csproj"
+              },
+              "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\Berger.Extensions.Pagination.csproj": {
+                "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\Berger.Extensions.Pagination.csproj"
+              },
+              "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\Berger.Extensions.Repository.csproj": {
+                "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\Berger.Extensions.Repository.csproj"
+              },
+              "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\Berger.Extensions.System.csproj": {
+                "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\Berger.Extensions.System.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\berger-open-source\\Berger.Extensions.AutoMapper\\src\\Berger.Extensions.AutoMapper\\Berger.Extensions.AutoMapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\berger-open-source\\Berger.Extensions.AutoMapper\\src\\Berger.Extensions.AutoMapper\\Berger.Extensions.AutoMapper.csproj",
+        "projectName": "Berger.Extensions.AutoMapper",
+        "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.AutoMapper\\src\\Berger.Extensions.AutoMapper\\Berger.Extensions.AutoMapper.csproj",
+        "packagesPath": "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\berger-open-source\\Berger.Extensions.AutoMapper\\src\\Berger.Extensions.AutoMapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael Cronemberger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp-presentation/_packaging/brg-erp-presentation/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp/_packaging/brg-erp-modules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,23 +115,261 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Berger.Extensions.AutoMapper": {
+            "AutoMapper": {
               "target": "Package",
-              "version": "[1.0.0.9, )"
+              "version": "[12.0.1, )"
             },
-            "Berger.Extensions.Domain": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[1.0.0.20, )"
-            },
-            "Berger.Extensions.Pagination": {
-              "target": "Package",
-              "version": "[1.0.0.17, )"
-            },
-            "Berger.Extensions.System": {
-              "target": "Package",
-              "version": "[1.0.0.7, )"
+              "version": "[12.0.1, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\berger-open-source\\Berger.Extensions.Domain\\src\\Berger.Extensions.Domain\\Berger.Extensions.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\berger-open-source\\Berger.Extensions.Domain\\src\\Berger.Extensions.Domain\\Berger.Extensions.Domain.csproj",
+        "projectName": "Berger.Extensions.Domain",
+        "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Domain\\src\\Berger.Extensions.Domain\\Berger.Extensions.Domain.csproj",
+        "packagesPath": "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Domain\\src\\Berger.Extensions.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael Cronemberger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp-presentation/_packaging/brg-erp-presentation/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp/_packaging/brg-erp-modules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\Berger.Extensions.Repository.csproj": {
+                "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\Berger.Extensions.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\Berger.Extensions.Pagination.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\Berger.Extensions.Pagination.csproj",
+        "projectName": "Berger.Extensions.Pagination",
+        "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\Berger.Extensions.Pagination.csproj",
+        "packagesPath": "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Pagination\\src\\Berger.Extensions.Pagination\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael Cronemberger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp-presentation/_packaging/brg-erp-presentation/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp/_packaging/brg-erp-modules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\Berger.Extensions.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\Berger.Extensions.Repository.csproj",
+        "projectName": "Berger.Extensions.Repository",
+        "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\Berger.Extensions.Repository.csproj",
+        "packagesPath": "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\berger-open-source\\Berger.Extensions.Repository\\src\\Berger.Extensions.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael Cronemberger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp-presentation/_packaging/brg-erp-presentation/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp/_packaging/brg-erp-modules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\Berger.Extensions.System.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\Berger.Extensions.System.csproj",
+        "projectName": "Berger.Extensions.System",
+        "projectPath": "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\Berger.Extensions.System.csproj",
+        "packagesPath": "C:\\Users\\Rafael Cronemberger\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\berger-open-source\\Berger.Extensions.System\\src\\Berger.Extensions.System\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rafael Cronemberger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp-presentation/_packaging/brg-erp-presentation/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/berger-erp/_packaging/brg-erp-modules/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
