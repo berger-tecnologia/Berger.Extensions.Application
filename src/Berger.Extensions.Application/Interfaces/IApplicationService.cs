@@ -1,13 +1,12 @@
-﻿using Berger.Extensions.System;
-using Berger.Extensions.Pagination;
+﻿using Berger.Extensions.Pagination;
+using Berger.Extensions.Abstractions;
 
 namespace Berger.Extensions.Application
 {
-    public interface IApplicationService<TSource, TDestination> : IPagination<TSource> where TSource : BaseInput where TDestination : BaseEntity
+    public interface IApplicationService<TSource, TDestination> : IPagination<TSource> where TSource : class, IBaseInput where TDestination : IBaseEntity
     {
         TSource GetById(Guid id);
         List<TSource> Get();
-        List<TSource> GetBasic();
         TSource Add(TSource source);
         TSource Update(TSource source);
         void Delete(Guid id);

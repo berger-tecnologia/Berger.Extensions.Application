@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Berger.Extensions.System;
 using Berger.Extensions.Domain;
+using Berger.Extensions.Abstractions;
 
 namespace Berger.Extensions.Application
 {
-    public partial class ApplicationService<TSource, TDestination> : IApplicationService<TSource, TDestination> where TSource : BaseInput where TDestination : BaseEntity
+    public partial class ApplicationService<TSource, TDestination> : IApplicationService<TSource, TDestination> where TSource : class, IBaseInput where TDestination : class, IBaseEntity
     {
         #region Properties
         private readonly IMapper _mapper;

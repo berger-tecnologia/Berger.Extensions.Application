@@ -8,11 +8,11 @@
     ".NETCoreApp,Version=v7.0": {
       "Berger.Extensions.Application/1.0.0": {
         "dependencies": {
+          "Berger.Extensions.Abstractions": "1.0.0",
           "Berger.Extensions.AutoMapper": "1.0.0",
           "Berger.Extensions.Domain": "1.0.0",
           "Berger.Extensions.Pagination": "1.0.0",
-          "Berger.Extensions.Repository": "1.0.0",
-          "Berger.Extensions.System": "1.0.0"
+          "Berger.Extensions.Repository": "1.0.0"
         },
         "runtime": {
           "Berger.Extensions.Application.dll": {}
@@ -614,20 +614,13 @@
       },
       "Berger.Extensions.Repository/1.0.0": {
         "dependencies": {
+          "Berger.Extensions.Abstractions": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "Berger.Extensions.Repository.dll": {}
-        }
-      },
-      "Berger.Extensions.System/1.0.0": {
-        "dependencies": {
-          "Berger.Extensions.Abstractions": "1.0.0"
-        },
-        "runtime": {
-          "Berger.Extensions.System.dll": {}
         }
       }
     }
@@ -1058,11 +1051,6 @@
       "sha512": ""
     },
     "Berger.Extensions.Repository/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Berger.Extensions.System/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
