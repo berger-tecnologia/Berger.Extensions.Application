@@ -3,7 +3,7 @@ using Berger.Extensions.Abstractions;
 
 namespace Berger.Extensions.Application
 {
-    public partial class ApplicationService<TSource, TDestination> : IApplicationService<TSource, TDestination> where TSource : class, IBaseInput where TDestination : class, IBaseEntity
+    public partial class ApplicationService<TSource, TDestination> : IApplicationService<TSource, TDestination> where TSource : class, IBaseEntity<Guid> where TDestination : class, IBaseEntity<Guid>
     {
         #region Properties
         public int Current { get; set; } 
