@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Berger.Extensions.Domain;
 using Berger.Extensions.Abstractions;
 
 namespace Berger.Extensions.Application
@@ -8,11 +7,11 @@ namespace Berger.Extensions.Application
     {
         #region Properties
         private readonly IMapper _mapper;
-        private readonly IBaseService<TDestination> _service;
+        private readonly IRepository<TDestination> _service;
         #endregion
 
         #region Constructors
-        public ApplicationService(IMapper mapper, IBaseService<TDestination> service)
+        public ApplicationService(IMapper mapper, IRepository<TDestination> service)
         {
             _mapper = mapper;
             _service = service;
