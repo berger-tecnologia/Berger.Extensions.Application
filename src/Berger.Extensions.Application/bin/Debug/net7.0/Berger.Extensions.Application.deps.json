@@ -12,7 +12,7 @@
           "Berger.Extensions.AutoMapper": "1.0.0",
           "Berger.Extensions.Domain": "1.0.0",
           "Berger.Extensions.Pagination": "1.0.0",
-          "Berger.Extensions.Repository": "1.0.0.49"
+          "Berger.Extensions.Repository": "1.0.0"
         },
         "runtime": {
           "Berger.Extensions.Application.dll": {}
@@ -72,20 +72,6 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.700.22.46903"
-          }
-        }
-      },
-      "Berger.Extensions.Repository/1.0.0.49": {
-        "dependencies": {
-          "Berger.Extensions.Abstractions": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "7.0.13",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/net7.0/Berger.Extensions.Repository.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -616,7 +602,7 @@
       "Berger.Extensions.Domain/1.0.0": {
         "dependencies": {
           "Berger.Extensions.Abstractions": "1.0.0",
-          "Berger.Extensions.Repository": "1.0.0.49"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
           "Berger.Extensions.Domain.dll": {}
@@ -628,6 +614,17 @@
         },
         "runtime": {
           "Berger.Extensions.Pagination.dll": {}
+        }
+      },
+      "Berger.Extensions.Repository/1.0.0": {
+        "dependencies": {
+          "Berger.Extensions.Abstractions": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "Berger.Extensions.Repository.dll": {}
         }
       }
     }
@@ -665,13 +662,6 @@
       "sha512": "sha512-eHEiCO/8+MfNc9nH5dVew/+FvxdaGrkRL4OMNwIz0W79+wtJyEoeRlXJ3SrXhoy9XR58geBYKmzMR83VO7bcAw==",
       "path": "azure.identity/1.7.0",
       "hashPath": "azure.identity.1.7.0.nupkg.sha512"
-    },
-    "Berger.Extensions.Repository/1.0.0.49": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nODvKoaA3StWM4nLd4cL/JYr3RVumbrRTwA5R1qrG/QGTJbo2/czftCmshRG7D4/7O65q1gLycaO/IMW/N1kbA==",
-      "path": "berger.extensions.repository/1.0.0.49",
-      "hashPath": "berger.extensions.repository.1.0.0.49.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1060,6 +1050,11 @@
       "sha512": ""
     },
     "Berger.Extensions.Pagination/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Berger.Extensions.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

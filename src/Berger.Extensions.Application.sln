@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{FA647B2B
 		..\build\Berger.Extensions.Application.yml = ..\build\Berger.Extensions.Application.yml
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Troubleshooting", "Troubleshooting", "{BE28A91F-6398-474A-8285-7F819518BDDF}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berger.Extensions.Domain", "..\..\Berger.Extensions.Domain\src\Berger.Extensions.Domain\Berger.Extensions.Domain.csproj", "{EE2C109D-BAB8-4537-BF3D-1E5E83D2852C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berger.Extensions.Repository", "..\..\Berger.Extensions.Repository\src\Berger.Extensions.Repository\Berger.Extensions.Repository.csproj", "{A85FB48C-521E-4CE3-A076-2073F815C51B}"
@@ -23,6 +21,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berger.Extensions.AutoMapper", "..\..\Berger.Extensions.AutoMapper\src\Berger.Extensions.AutoMapper\Berger.Extensions.AutoMapper.csproj", "{5D453BC6-FA30-4186-94E5-E41581D678C4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berger.Extensions.Pagination", "..\..\Berger.Extensions.Pagination\src\Berger.Extensions.Pagination\Berger.Extensions.Pagination.csproj", "{EE22A99A-904A-49F0-A046-C433E9501819}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Berger.Extensions.Abstractions", "..\..\Berger.Extensions.Abstractions\src\Berger.Extensions.Abstractions\Berger.Extensions.Abstractions.csproj", "{5187F393-BE9D-461E-B802-54DB388EF65C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,17 +54,22 @@ Global
 		{EE22A99A-904A-49F0-A046-C433E9501819}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE22A99A-904A-49F0-A046-C433E9501819}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE22A99A-904A-49F0-A046-C433E9501819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5187F393-BE9D-461E-B802-54DB388EF65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5187F393-BE9D-461E-B802-54DB388EF65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5187F393-BE9D-461E-B802-54DB388EF65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5187F393-BE9D-461E-B802-54DB388EF65C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FA7875DB-83BF-4E23-AA98-65AEA0963C2B} = {103FA25D-35D1-429A-B7E3-4DAA4328F4ED}
-		{EE2C109D-BAB8-4537-BF3D-1E5E83D2852C} = {BE28A91F-6398-474A-8285-7F819518BDDF}
-		{A85FB48C-521E-4CE3-A076-2073F815C51B} = {BE28A91F-6398-474A-8285-7F819518BDDF}
-		{5BC49358-206E-4482-B8B1-A094D0F9C740} = {BE28A91F-6398-474A-8285-7F819518BDDF}
-		{5D453BC6-FA30-4186-94E5-E41581D678C4} = {BE28A91F-6398-474A-8285-7F819518BDDF}
-		{EE22A99A-904A-49F0-A046-C433E9501819} = {BE28A91F-6398-474A-8285-7F819518BDDF}
+		{EE2C109D-BAB8-4537-BF3D-1E5E83D2852C} = {103FA25D-35D1-429A-B7E3-4DAA4328F4ED}
+		{A85FB48C-521E-4CE3-A076-2073F815C51B} = {103FA25D-35D1-429A-B7E3-4DAA4328F4ED}
+		{5BC49358-206E-4482-B8B1-A094D0F9C740} = {103FA25D-35D1-429A-B7E3-4DAA4328F4ED}
+		{5D453BC6-FA30-4186-94E5-E41581D678C4} = {103FA25D-35D1-429A-B7E3-4DAA4328F4ED}
+		{EE22A99A-904A-49F0-A046-C433E9501819} = {103FA25D-35D1-429A-B7E3-4DAA4328F4ED}
+		{5187F393-BE9D-461E-B802-54DB388EF65C} = {103FA25D-35D1-429A-B7E3-4DAA4328F4ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4961BE93-F316-4B63-8144-768113F9C617}
