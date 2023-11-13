@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Berger.Extensions.Abstractions;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Berger.Extensions.Application
 {

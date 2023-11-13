@@ -1,23 +1,28 @@
-﻿using Berger.Extensions.System;
-using Berger.Extensions.Pagination;
+﻿using Berger.Extensions.Pagination;
+using Berger.Extensions.Abstractions;
 
 namespace Berger.Extensions.Application
 {
-    public partial class ApplicationService<TSource, TDestination> : IApplicationService<TSource, TDestination> where TSource : BaseInput where TDestination : BaseEntity
+    public partial class ApplicationService<TSource, TDestination> : IApplicationService<TSource, TDestination> where TSource : class, IBaseEntity<Guid> where TDestination : class, IBaseEntity<Guid>
     {
-        public Pagination<TSource> Get(string query, int page = 0)
+        #region Properties
+        public int Current { get; set; } 
+        public List<TSource> Items { get; set; }
+        public int Limit { get; set; }
+        public int Pages { get; set; }
+        public int TotalCount { get; set; }
+        public int Previous { get; set; }
+        public int Next { get; set; }
+        public IPageInformation PageInformation { get; set; }
+        #endregion
+
+        #region Methods
+        public IPagination<TSource> Get(int page = 0)
         {
             var results = _service.Get().Paginate(page, 50);
 
-            return _mapper.Map<Pagination<TSource>>(results);
+            return _mapper.Map<IPagination<TSource>>(results);
         }
-
-        public Pagination<TSource> Get(string query, int page = 0, object filters = null)
-        {
-            // TODO: Apply filters
-            var results = _service.Get().Paginate(page, 50);
-
-            return _mapper.Map<Pagination<TSource>>(results);
-        }
+        #endregion
     }
 }

@@ -8,11 +8,11 @@
     ".NETCoreApp,Version=v7.0": {
       "Berger.Extensions.Application/1.0.0": {
         "dependencies": {
+          "Berger.Extensions.Abstractions": "1.0.0",
           "Berger.Extensions.AutoMapper": "1.0.0",
           "Berger.Extensions.Domain": "1.0.0",
           "Berger.Extensions.Pagination": "1.0.0",
-          "Berger.Extensions.Repository": "1.0.0",
-          "Berger.Extensions.System": "1.0.0"
+          "Berger.Extensions.Repository": "1.0.0"
         },
         "runtime": {
           "Berger.Extensions.Application.dll": {}
@@ -585,6 +585,11 @@
           }
         }
       },
+      "Berger.Extensions.Abstractions/1.0.0": {
+        "runtime": {
+          "Berger.Extensions.Abstractions.dll": {}
+        }
+      },
       "Berger.Extensions.AutoMapper/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
@@ -596,30 +601,30 @@
       },
       "Berger.Extensions.Domain/1.0.0": {
         "dependencies": {
-          "Berger.Extensions.Repository": "1.0.0"
+          "Berger.Extensions.Abstractions": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
           "Berger.Extensions.Domain.dll": {}
         }
       },
       "Berger.Extensions.Pagination/1.0.0": {
+        "dependencies": {
+          "Berger.Extensions.Abstractions": "1.0.0"
+        },
         "runtime": {
           "Berger.Extensions.Pagination.dll": {}
         }
       },
       "Berger.Extensions.Repository/1.0.0": {
         "dependencies": {
+          "Berger.Extensions.Abstractions": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "Berger.Extensions.Repository.dll": {}
-        }
-      },
-      "Berger.Extensions.System/1.0.0": {
-        "runtime": {
-          "Berger.Extensions.System.dll": {}
         }
       }
     }
@@ -1029,6 +1034,11 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
+    "Berger.Extensions.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Berger.Extensions.AutoMapper/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1045,11 +1055,6 @@
       "sha512": ""
     },
     "Berger.Extensions.Repository/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Berger.Extensions.System/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
