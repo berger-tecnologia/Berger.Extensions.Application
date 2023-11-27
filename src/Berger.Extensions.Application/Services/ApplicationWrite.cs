@@ -2,7 +2,7 @@
 
 namespace Berger.Extensions.Application
 {
-    public partial class ApplicationService<TSource, TDestination> : IApplicationService<TSource, TDestination> where TSource : class, IBaseEntity<Guid> where TDestination : class, IBaseEntity<Guid>
+    public partial class BaseApplication<TSource, TDestination> : IBaseApplication<TSource, TDestination> where TSource : class, IBaseEntity<Guid> where TDestination : class, IBaseEntity<Guid>
     {
         public TSource Add(TSource source)
         {

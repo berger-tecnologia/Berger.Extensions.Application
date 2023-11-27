@@ -7,7 +7,7 @@ namespace Berger.Extensions.Application
     {
         public static void ConfigureBaseApplication(this IServiceCollection services)
         {
-            services.AddScoped(typeof(IApplicationService<,>), typeof(ApplicationService<,>));
+            services.AddScoped(typeof(IBaseApplication<,>), typeof(BaseApplication<,>));
         }
     }
 }
