@@ -3,7 +3,7 @@ using Berger.Extensions.Abstractions;
 
 namespace Berger.Extensions.Application
 {
-    public class BaseApplication<TSource, TDestination, TService> : ApplicationService<TSource, TDestination>
+    public class ApplicationService<TSource, TDestination, TService> : BaseApplication<TSource, TDestination>
         where TSource : BaseEntity
         where TDestination : BaseEntity
         where TService : IBaseService<TDestination>
@@ -13,7 +13,7 @@ namespace Berger.Extensions.Application
         #endregion
 
         #region Constructors
-        public BaseApplication(IMapper mapper, TService service) : base(mapper, service) { }
+        public ApplicationService(IMapper mapper, TService service) : base(mapper, service) { }
         #endregion
     }
 }
