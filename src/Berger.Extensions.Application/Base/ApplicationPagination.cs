@@ -17,5 +17,12 @@ namespace Berger.Extensions.Application
         public int Next { get; set; }
         public IPageInformation PageInformation { get; set; }
         #endregion
+
+        #region Methods
+        public TSource Manage(TSource source)
+        {
+            return source.Id != Guid.Empty ? Update(source) : Add(source);
+        }
+        #endregion
     }
 }

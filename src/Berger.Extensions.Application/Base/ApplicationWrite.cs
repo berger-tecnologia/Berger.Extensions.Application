@@ -22,7 +22,7 @@ namespace Berger.Extensions.Application
         {
             var destination = _mapper.Map<TDestination>(source);
 
-            _service.Add(destination);
+            _service.Update(destination);
 
             return source;
         }
