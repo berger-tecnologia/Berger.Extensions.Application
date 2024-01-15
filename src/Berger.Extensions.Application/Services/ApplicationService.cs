@@ -8,10 +8,6 @@ namespace Berger.Extensions.Application
         where TDestination : BaseEntity
         where TService : IBaseService<TDestination>
     {
-        #region Properties
-        private readonly TService _service;
-        #endregion
-
         #region Constructors
         public ApplicationService(IMapper mapper, TService service) : base(mapper, service) { }
         #endregion
