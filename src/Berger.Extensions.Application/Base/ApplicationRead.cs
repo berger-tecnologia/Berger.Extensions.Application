@@ -40,6 +40,14 @@ namespace Berger.Extensions.Application
 
             return _mapper.Map<TSource>(result);
         }
+        public List<TSource> GetByEntityTypeId(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+        public List<TSource> GetByEntityId(Guid id)
+        {
+            throw new NotImplementedException();
+        }
         #endregion
     }
 }
