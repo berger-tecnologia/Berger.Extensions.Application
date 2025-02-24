@@ -6,7 +6,7 @@ namespace Berger.Extensions.Application
     public class ApplicationService<TSource, TDestination, TService> : BaseApplication<TSource, TDestination>
         where TSource : BaseEntity
         where TDestination : BaseEntity
-        where TService : IBaseService<TDestination>
+        where TService : IBaseEntityService<TDestination>
     {
         #region Constructors
         public ApplicationService(IMapper mapper, TService service) : base(mapper, service) { }

@@ -10,11 +10,11 @@ namespace Berger.Extensions.Application
     {
         #region Properties
         private readonly IMapper _mapper;
-        private readonly IBaseService<TDestination> _service;
+        private readonly IBaseEntityService<TDestination> _service;
         #endregion
 
         #region Constructors
-        public BaseApplication(IMapper mapper, IBaseService<TDestination> service)
+        public BaseApplication(IMapper mapper, IBaseEntityService<TDestination> service)
         {
             _mapper = mapper;
             _service = service;
